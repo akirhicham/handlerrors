@@ -1,10 +1,10 @@
-const QueryHandler = require('./handllererror');
+const QueryHandler = require('./handlerror');
 
 const dbConfig = {
     host: 'localhost',
     user: 'root',
     password: '',
-    database: 'arma_kpi',
+    database: 'armas_kpi',
 };
 
 const queryHandler = new QueryHandler(dbConfig);
