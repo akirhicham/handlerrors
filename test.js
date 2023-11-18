@@ -1,4 +1,4 @@
-const QueryHandler = require('./handlerror');
+const QueryHandler = require('./handleerrors');
 
 const dbConfig = {
     host: 'localhost',
