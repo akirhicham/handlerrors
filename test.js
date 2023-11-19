@@ -1,14 +1,14 @@
 const QueryHandler = require('./handleerrors');
-
+//Database Config
 const dbConfig = {
     host: 'localhost',
     user: 'root',
     password: '',
-    database: 'armas_kpi',
+    database: 'armas_kpi',//Database name
 };
 
 const queryHandler = new QueryHandler(dbConfig);
-
+//Query to be executed (example:Delete by ID)
 const sampleQuery = 'Delete from Indicators where IndicatorID=?';
 
 const queryParams =[17];

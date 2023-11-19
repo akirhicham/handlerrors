@@ -2,7 +2,9 @@ const mysql = require('mysql');
 
 class QueryHandler {
     constructor(config) {
+        //Establish Database Connection
         this.connection = mysql.createConnection(config);
+        //Array of Suggestions matching most common SQL errors
         this.errorSuggestions = [
             { code: 'ER_NO_SUCH_TABLE', suggestion: 'Make sure the table exists and the table name is correct.' },
             { code: 'ER_DUP_ENTRY', suggestion: 'Check for duplicate entries or provide a unique identifier.' },
