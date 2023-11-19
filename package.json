@@ -1,7 +1,7 @@
 
 
 {
-  "name": "handleerrors",
+  "name": "handle_my_errors",
   "version": "1.0.0",
   "description": "Package designed to facilitate database queries with enhanced error handling for MySQL databases",
   "main": "test.js",
